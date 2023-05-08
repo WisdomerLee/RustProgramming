@@ -1,0 +1,14 @@
+mod person{
+    pub struct personal_info{
+        age: u8,
+        education: String,
+    }
+    impl person_info{
+        pub fn new(new_edu: &str)-> Self{
+            Self{
+                education: String::from(new_edu),
+                age: 20,
+            }
+        }
+    }
+}
