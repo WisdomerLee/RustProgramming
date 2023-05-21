@@ -65,4 +65,5 @@ fn main(){
     println!("파일 이름 바꾸기 {:?}", fs::rename(r"D:\prev.txt", r"D:\new.txt"));
     //복사하기
     println!("파일에서 파일 복사하기 {:?}", fs::copy(r"D:\new1.txt", r"D:\new2.txt"));
+    
 }
